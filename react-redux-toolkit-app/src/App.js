@@ -1,10 +1,12 @@
-import './App.css';
-import Account from './Components/Account';
+import "./App.css";
+import Account from "./Components/Account";
+import CreateAccount from "./Components/CreateAccount";
 
 function App() {
   return (
     <>
-      <Account/>
+      <Account />
+      <CreateAccount />
     </>
   );
 }
